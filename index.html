@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="row">
+        <h1>THE CARD FIGHT!</h1>
+
+    </div>
+</header>
+<section id="game" class="row"> <!--the game section starts-->
+    <div id="start-scene" class="scene">
+        <a href="#" id="start-btn" class="button"></a>
+    </div>
+    <div id="game-scene" class="scene out"></div>
+    <div id="gameover-scene" class="scene out won loss">
+        <p><a href="#" id="back-to-menu-button" class="button"></a></p>
+    </div>
+</section> <!--the game section ends-->
+<section class='how-to-play row'>
+    <h2>How to play?</h2>
+    <p>Pick one card and watch the result to be displayed. Beat the opponent before you run out of points.</p>
+
+</section>
+<footer>
+    <div class="row"></div>
+</footer>
+
+<!-- <div id="game-scene" class="scene out">
+ <div class="card a">
+ <div class="front face"></div>
+ <div class="back face"></div>
+ </div>
+ <div class="card b flipped">
+ <div class="front face"></div>
+ <div class="back face"></div>
+ </div>
+</div> -->
+  <!--The flipping effect-->
+<div id="game-scene" class="scene out">
+    <div class="card player a flipped out">
+    <div class="front face"></div>
+    <div class="back face"></div>
+    </div>
+
+    <div class="card player b flipped out">
+    <div class="front face"></div>
+    <div class="back face"></div>
+    </div>
+    <div class="card player c flipped out">
+    <div class="front face"></div>
+    <div class="back face"></div>
+    </div>
+
+
+
+   <div class="card opponent out">
+   <div class="front face">
+    <div class="power">100</div>
+   </div>
+   <div class="back face">back</div>
+   </div>
+    
+</body>
+</html>
